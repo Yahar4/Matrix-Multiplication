@@ -1,3 +1,3 @@
 run:
-	clang main.c -o ./bin/main
+	clang ./src/main.c ./src/mat/mat.c -o ./bin/main
 	./bin/main
